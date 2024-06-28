@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="estilos.css" rel="stylesheet">
+        <!--Animaciones CSS CDN-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+
+    <title>Verónica Maldonado │ Portafolio Web</title>
+</head>
+<body>
+    <!--barra de navegación-->
+    <nav>
+           <h1>Verónica Maldonado</h1>
+           <ul>
+               <li><a href="#about" class="nav-link">About</a></li>
+               <li><a href="#skills" class="nav-link">Skills</a></li>
+               <li><a href="#projects" class="nav-link">Projects</a></li>
+               <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="burger-menu" id="burger-menu">
+                <ion-icon class="bars" name="menu-outline"></ion-icon>
+            </button>
+    </nav>
+    <!--Sección Hero-->
+    <section class="hero" id="about">
+        <img src="imagenes/img-woman.jpg" alt="Women Computer" class="hero-img" Loading="lazy">
+        <div class="bio animate__animated animate__shakeX">
+            <h2 class="bio-title">About me</h2>
+            <p class="bio-text">Verónica Maldonado, a student of the Pharmaceutical Chemistry and Biology program. A multidisciplinary woman with an insatiable thirst for knowledge and a strong commitment to developing skills in various areas.</p>
+        </div>
+    </section>
+
+    <!--About me-->
+    <section class="more-about">
+        <h2>More About Me</h2>
+        <p>She aspires to pursue a master's degree in Forensic Chemistry.</p>
+        <p>She is passionate about painting and art, both physical and digital, as well as writing literary novels and poems.</p>
+        <p>She enjoys activities that require manual dexterity, such as carpentry, crafts, and electrical work.</p>
+    </section>
+
+    <!--Skills-->
+    <section class="skills" id="skills">
+        <h2 class="skills-header">My Top Skills</h2>
+            <div class="skills-wrapper">
+                <div class="first-set animate__animated animate__pulse">
+                    <img src="imagenes/icons8-html-5.svg" alt="HTML5" Loading="lazy" class="icon icon-card">
+                    <img src="imagenes/icons8-css3.svg" alt="CSS3" Loading="lazy" class="icon icon-card">
+                    <img src="imagenes/icons8-javascript.svg" alt="JavaScript" Loading="lazy" class="icon icon-card">
+                </div>
+                <div class="second-set animate__animated animate__pulse">
+                    <img src="imagenes/icons8-bootstrap.svg" alt="Bootstrap" Loading="lazy" class="icon icon-card">
+                    <img src="imagenes/icons8-github-50.svg" alt="Git" Loading="lazy" class="icon icon-card">
+                    <img src="imagenes/icons8-react-native.svg" alt="React" Loading="lazy" class="icon icon-card">
+                </div>
+            </div>
+    </section>
+
+    <!--Projects-->
+    <section class="projects" id="projects">
+        <h2 class="projects-title">Some of my Recent Projects</h2>
+        <div class="projects-container">
+            <div class="project-container project-card">
+                <img src="imagenes/projecto1pinterest.jpg" alt="" loading="lazy" class="project-pic">
+                <h3 class="projects-title">Pinterest Clone</h3>
+                <p class="project-details">This project is a clone of the Pinterest home interface, created purely with HTML5 and CSS3.</p>
+                <a href="https://iniciodepinterest-alpha.vercel.app/" target="_blank" class="project-link">Check it out!</a>
+            </div>
+
+            <div class="project-container project-card">
+                <img src="imagenes/contruyendoproyectos" alt="" loading="lazy" class="project-pic">
+                <h3 class="projects-title">Project 2</h3>
+                <p class="project-details">Work in Progress...</p>
+                <a href="#" target="_blank" class="project-link">Stay Tuned!</a>
+            </div>
+
+            <div class="project-container project-card">
+                <img src="imagenes/contruyendoproyectos" alt="" loading="lazy" class="project-pic">
+                <h3 class="projects-title">Project 3</h3>
+                <p class="project-details">Work in Progress...</p>
+                <a href="#" target="_blank" class="project-link">Stay Tuned!</a>
+            </div>
+        </div>
+    </section>
+
+    <!--Redes Sociales-->
+    <div class="socials">
+        <a href="https://github.com/Veroxtitlan-21" target="_blank"><img src="icons/icons8-github-100.png" alt="GitHub" loading="lazy" class="socicon"></a>
+        <a href="https://www.instagram.com/veroxtitlan/" target="_blank"><img src="icons/icons8-instagram-100.png" alt="Instagram" loading="lazy" class="socicon"></a>
+        <a href="https://wa.me/529992146644" target="_blank"><img src="icons/icons8-whatsapp-100.png" alt="Whatsapp" loading="lazy" class="socicon"></a>
+        <a href="https://www.linkedin.com/in/veronica-maldonado-4454b1316/" target="_blank"><img src="icons/icons8-linkedin-100.png" alt="LinkedIn" loading="lazy" class="socicon"></a>
+    </div>
+
+    <!--Scroll button-->
+    <i class="scroll-up" id="scroll-up">
+        <img src="icons/flecha.gif" class="socicon up-arrow" alt="flecha hacia arriba">
+    </i>
+
+    <!--Footer-->
+    <footer>
+        <p>Built with ⸜(｡˃ ᵕ ˂ )⸝♡ <b>Verónica Maldonado</b></p>
+    </footer>
+
+    <!--JavaScript link-->
+    <script src="app.js"></script>
+
+    <!--Ion icons scripts-->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
